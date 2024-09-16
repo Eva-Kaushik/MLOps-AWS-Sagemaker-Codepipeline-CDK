@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  variables:
+    nodeversion: 16
+    pythonversion: 3.10
+
+phases:
+  install:
+    runtime-versions:
+      python: $pythonversion
+      nodejs: $nodeversion
+
+  build:
+    commands:
+      - bash scripts/deploy.sh

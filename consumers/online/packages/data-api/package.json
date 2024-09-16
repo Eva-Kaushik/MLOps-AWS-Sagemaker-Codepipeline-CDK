@@ -1,0 +1,15 @@
+{
+  "name": "@aws-prototype/model-consumer-online-data-api",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "dependencies": {
+    "@aws-prototype/model-consumer-online-data-type": "1.0.0",
+    "aws-sdk": "^2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --max-warnings 0  .",
+    "lint:fix": "eslint --fix ."
+  }
+}
